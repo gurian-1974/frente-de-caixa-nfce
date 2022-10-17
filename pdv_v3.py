@@ -390,6 +390,7 @@ lb_codigo_produto.place(x=40, y=50)
 
 entry_codigo_produto = Entry(root, width=20, font="arial 22 bold")
 entry_codigo_produto.place(x=40, y=100)
+root.bind("<Return>",inserir_p)
 entry_codigo_produto.focus()
 
 Frame(root, width=322, height=5, bg="blue").place(x=41, y=132)
